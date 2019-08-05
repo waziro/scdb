@@ -1,0 +1,17 @@
+.sidebar{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .sidebar{
+        display: block;
+        position: absolute;
+        background-color: #f5f5f5;
+        overflow-x: hidden;;
+        top: 52px;
+        bottom: 0;
+        text-align: center;
+        max-width: 180px;
+        z-index: 1000;
+    }
+}
